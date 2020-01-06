@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1 {
+  color: #BADA55; 
+  font-size: 48px; 
+  text-align:center; 
+}
+
+p {
+  line-height: 18px; 
+  font-size: 1.2em; 
+  font-weight: bold; 
+  color: orange; 
+}
+
+h2, 
+p {
+  color: #fff; 
+}
+
+footer p {
+  color: red; 
+  font-size: 10px; 
+}
+
+body {
+  background-color: purple; 
+}
+
+li {
+  text-transform: uppercase;
+  text-decoration: underline; 
+}
+
+section {
+  border: #BADA55 10px solid;
+  background-color: rgba(0, 0, 0, 0.4); 
+}
+

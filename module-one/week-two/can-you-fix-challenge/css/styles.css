@@ -1,0 +1,52 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* There are six CSS related errors to find and fix. Find and fix them all? */ 
+
+body {
+  height: 100%;
+}
+
+section > p  {
+  color: purple; 
+}
+
+
+div {
+  width: 60%;
+  margin: 0 auto;
+  padding: 30px; 
+  border: 2px solid #eaeaea; 
+  margin-top: 100px;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", :"Arial", "sans-serif";
+  text-decoration: underline; 
+}
+
+p {
+  line-height: 1.4em;
+  color: red; 
+}
+
+h1 { 
+  color: #BADA55; 
+  font-weight:bold; 
+  text-align: center; 
+}
+
+
+/* What's the deal? */ 
+
+
+/* 1.)  Why is the paragraph purple and not red? */ 
+
+
+
+/* 2.) Why is all the text underlined? */ 
+
+
+
+
+
+
+
+

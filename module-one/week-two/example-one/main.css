@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* ROUND ONE - the cascade*/
+
+h1 {
+  color: #D68910; /*orange*/
+}
+
+h1 {
+  color: #CB4335; /*red */
+}
+
+/* ROUND TWO  * specificity - p > em is more specifc */ 
+
+p > em {
+  color: #8E44AD; /*purple*/
+}
+
+em {
+  color: #1D8348; /*green*/ 
+}
+
+/* ROUND THREE - inheritance */
+
+h1 + p {
+  color: #3498D8; /* blue */ 
+}
+
+/* ROUND FOUR * same level of specificity, cascade is happening */
+
+
+p > a {
+  color: #F1C40F; /*some other color - probably orangish */  
+}
+
+body a {
+  color: #BADA55; /*lime green*/
+}
+
+/* ROUND FIVE  class is more specific*/
+
+.list li {
+  text-transform: lowercase; 
+}
+
+body ul li {
+  text-transform: uppercase; 
+}
+
+
+
+
+
+
+
+

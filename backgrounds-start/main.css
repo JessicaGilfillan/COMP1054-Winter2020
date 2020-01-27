@@ -1,0 +1,82 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* general styles */
+
+* {
+  box-sizing: border-box; 
+}
+
+hmtl, 
+body {
+  height: 100%;
+  margin: 0; 
+  padding: 0; 
+}
+
+html {
+  font-size: 1em; 
+  line-height: 1.4em; 
+  margin: 0; 
+  padding: 0; 
+  font-family: 'Montserrat', sans-serif; 
+}
+
+
+h1 {
+  text-align: center; 
+  font-size: 4em;
+  text-shadow: 6px 1px 5px #000;
+  margin: 0; 
+  color: #eaeaea; 
+}
+
+/* background colors */ 
+
+main {
+  padding: 30px; 
+  background-color: #ececec;
+}
+
+.inner-wrapper {
+  background-color: #f9f9f9; 
+  padding: 25px 15px;
+  /*border: 1px solid #ececec; */
+  border-radius: 10px; 
+}
+
+h2 {
+  background-color: #d4d4d4; 
+  padding: 15px;
+  border-radius: 10px; 
+}
+
+header {
+  height: 300px; 
+  background-color:rgb(0,0,0); 
+  /*background-image: url('assets/leaves-small.jpg'); */
+  background-image: url('assets/leaves-large.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  display:flex; 
+  align-items: center;
+  justify-content: center;
+  background-position: 20% 40%;
+  background-attachment: fixed;
+}
+
+footer {
+  padding: 25px 100px; 
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(108,172,107,1) 47%, rgba(24,176,82,1) 100%);
+}
+
+
+
+
+
+
+
+
+
+

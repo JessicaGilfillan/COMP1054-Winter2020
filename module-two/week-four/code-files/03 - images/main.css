@@ -1,0 +1,48 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.wrapper {
+  width:200px;
+}
+
+.box {
+  border: 1px solid red; 
+}
+
+/* a common technique is to make the max-width of an image 100%. This will enable the image to become smaller in size than the box but not larger. This technique will work with other replaced elements such as <video>s, or <iframe>s.
+*/
+
+img {
+  max-width: 100%; 
+}
+
+/* You can make other choices about images inside containers. For example, you may want to size an image so it completely covers a box.
+*/
+
+/*The object-fit property can help you here. When using object-fit the replaced element can be sized to fit a box in a variety of ways.
+
+Below we have used the value cover, which sizes the image down, maintaining the aspect ratio so that it neatly fills the box. As the aspect ratio is maintained some parts of the image will be cropped by the box.*/
+
+/*If we use contain as a value the image will be scaled down until it is small enough to fit inside the box. This will result in "letterboxing" if it is not the same aspect ratio as the box.
+
+You could also try the value of fill, which will fill the box but not maintain the aspect ratio. */ 
+
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.contain {
+  object-fit: contain;
+}
+    

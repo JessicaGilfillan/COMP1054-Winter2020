@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+h1+p,h2{color:#bada55;
+}
+/* leave an empty line between style rules*/ 
+h1 + p, /* multiple selectors on separate lines */ 
+h2 { /* opening curly brace on the same line as the selector, space between selectors */
+  color: #bada55; /*space after the colon, declaration ends with a semi-colon */
+} /*closing curly brace on a separate line */ 
+ 
+
+h3, 
+h4 {
+  text-transform: uppercase; 
+}
+
+

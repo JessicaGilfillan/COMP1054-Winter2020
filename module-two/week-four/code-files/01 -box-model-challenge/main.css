@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Step One - A simple browser reset */ 
+* {
+  margin:0; 
+  padding: 0;
+  /* Step Seven */
+  /*box-sizing: border-box*/;
+}
+
+
+
+.container {
+  /*height: 30px;*/
+  /* Part Two */
+  /*background-color: orange;
+  overflow:scroll;
+  width: 300px; */
+}
+
+.box {
+  /*height: 100px;*/ 
+  width: 600px;
+  /* Step Two - padding all around */ 
+  padding: 35px; 
+  /* Step Four - border - show different borders*/
+  border: 15px solid purple;
+  /* Step Six - margin bottom */ 
+  margin-bottom: 25px;  
+  /* Step Three - different padding on differnet sides * Also show long-hand */ 
+  /*padding: 15px 20px 50px 40px; 
+  /* Step Three - margin - shorthand - show long hand *
+  margin: 10px 20px 70px 40px; 
+  /* border long hand */ 
+  border-top: 15px solid purple;
+  border-bottom: 20px double green;
+  border-left: 25px solid red;
+  border-right: 20px dashed orange;*/
+}
+
+/* Step Six */ 
+.box2 {
+  margin-top: 70px; 
+}
